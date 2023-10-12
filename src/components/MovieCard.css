@@ -1,0 +1,18 @@
+.half-star {
+    display: inline-flex;
+    position: relative;
+  }
+  
+  .half-star .full-star {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .half-star .half-star-character {
+    position: relative;
+    color: gold;
+    margin-left: -12px; /* Adjust as needed */
+    font-size: 14px; /* Adjust as needed */
+  }
+  
